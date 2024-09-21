@@ -4,10 +4,30 @@
     <Filter Include="main">
       <UniqueIdentifier>{ddeea2ba-7f70-430e-b229-a43b153804c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Reservoir">
+      <UniqueIdentifier>{8128fd9d-6323-46fb-bdc0-fddf98f19ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color">
+      <UniqueIdentifier>{3c06ca1e-63fb-498a-9676-200f3c3d7fc2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Reservoir.cpp">
+      <Filter>Reservoir</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="ColorLibrary.cpp">
+      <Filter>Color</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Reservoir.h">
+      <Filter>Reservoir</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorLibrary.h">
+      <Filter>Color</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
